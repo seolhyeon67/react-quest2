@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Hdr from './Header1.js';
+import Header from './Header1.js';
 import Mp from './Main_picture.js';
 import IconT from './Icon_title.js';
 import Iconbox from './Iconbox.js';
@@ -14,7 +14,7 @@ function App() {
           <Route path='/About' element={<About />}/>
         </Routes>
       </BrowserRouter>
-      <Hdr/>
+      <Header/>
       <Mp/>
       <IconT/>
       <Iconbox/>
