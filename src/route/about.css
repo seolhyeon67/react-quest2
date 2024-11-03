@@ -1,0 +1,63 @@
+#about {
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Malgun Gothic';
+    color: black;
+    font-weight: 500;
+}
+div.top {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.chef_about img {
+    width: 750px;
+    height: 500px;
+    float: left;
+}
+div.right img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+div.box_all {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+p.box6 {
+    overflow: hidden;
+    float: left;
+    height: 500px;
+    width: 750px;
+    margin-top: 0px;
+}
+p.box7 {
+    padding: 20px;
+    margin-top: 0px;
+    width: 210px;
+    height: 460px;
+    background-color:rgba(252, 216, 162, 0.856);
+    float: left;
+}
+div.footer {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-right: 250px;
+    width: 750px;
+    height: 40px;
+    background-color:rgb(231, 128, 128) ;
+}
+p.footer {
+    float: left;
+    padding: 10px;
+    height: 20px;
+    margin: 0 auto;
+}
+p.footer:nth-child(2n) {
+    color: orange;
+    font-weight: bold;
+}
