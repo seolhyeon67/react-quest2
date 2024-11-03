@@ -19,6 +19,10 @@ li {
     padding: 33px 40px 0px 40px;
     font-weight: bold;
 }
+li:hover {
+    color: red;
+    text-decoration: underline black;
+}
 main img{
     height: 464px;
     width: 100vw;
